@@ -172,3 +172,16 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Ignore large data files and outputs
+data/
+*.jsonl
+*.tar.gz
+*.zip
+*.csv
+*.fasta
+*.log
+*.out
+__pycache__/
+.ipynb_checkpoints/
+*.zip
